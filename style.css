@@ -1,0 +1,221 @@
+body {
+  background: #001219;
+  color: #f77f00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.alisttwo {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 7px;
+}
+
+.menutwo {
+  width: 100%;
+  height: 60px;
+  opacity: 1;
+}
+
+.menu {
+  background: none;
+  width: 100%;
+  height: 60px;
+  opacity: 0.5;
+}
+
+.alist {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 7px;
+}
+
+.aown {
+  color: #f77f00;
+  font-size: 40px;
+}
+
+.atwo {
+  color: #f77f00;
+  font-size: 30px;
+}
+
+.athree {
+  color: #f77f00;
+  font-size: 30px;
+}
+
+.imgind {
+  border: 25px solid black;
+  position: relative;
+  left: 3%;
+  width: 90%;
+  opacity: 0.5;
+}
+
+.h1 {
+  position: relative;
+  top: 3px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+footer {
+}
+
+footer h1 {
+  text-align: center;
+}
+
+.h1two {
+  text-align: center;
+}
+
+.footerh1 {
+  border-bottom: 3px solid white;
+}
+
+.h3three {
+  text-align: center;
+}
+
+.h2ip {
+  text-align: center;
+}
+
+.h1div {
+  text-align: center;
+}
+
+.donate p {
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+.p0 {
+  text-align: center;
+}
+
+.donp {
+  text-align: center;
+  font-size: 15px;
+}
+
+.twobody {
+  background-image: url(https://furman.top/uploads/posts/2022-09/1663021944_32-furman-top-p-mainkraft-fon-bez-sheiderov-krasivo-32.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.art {
+  position: relative;
+  top: 7px;
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.artop {
+  width: 260px;
+  background: white;
+  padding: 40px;
+  padding-right: 80px;
+  border-radius: 10px;
+}
+
+.artopp {
+  width: 250px;
+  background: white;
+  padding: 40px;
+  padding-right: 90px;
+  border-radius: 10px;
+}
+
+.artown {
+  width: 300px;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+#img {
+  border-radius: 10px;
+}
+
+.a_artown {
+  position: relative;
+  left: 210px;
+  color: white;
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  background: red;
+  border-radius: 10px;
+  animation: buttom;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.parttown {
+  font-size: 20px;
+  position: relative;
+  top: 18px;
+  right: 30px;
+}
+
+.arttwo {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.artthree {
+  position: relative;
+  top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.artfoor {
+  position: relative;
+  top: 45px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.artfive {
+  position: relative;
+  top: 55px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@keyframes buttom {
+  0% {
+    background: blue;
+  }
+  50% {
+    background: green;
+  }
+  70% {
+    background: orange;
+  }
+  90%{
+    background: red;
+  }
+  100%{
+    background: blue;
+  }
+}
